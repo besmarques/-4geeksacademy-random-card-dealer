@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  width: 205px;
+  height: 280px;
+}
+
+.top-row {
+  height: 40px;
+}
+
+.center-row {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.bottom-row {
+  height: 40px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.hearts {
+  color: red;
+}
+
+.spades {
+}
+
+.clubs {
+}
+
+.diamonds {
+  color: red;
+}
